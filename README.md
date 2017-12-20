@@ -1,4 +1,6 @@
 # Gist-Manager
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/JoeKarlsson/Gist-Manager.svg)](https://greenkeeper.io/)
 A GitHub Gist manager built using React JS
 =====================
 
