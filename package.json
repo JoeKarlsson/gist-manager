@@ -58,7 +58,7 @@
     "sass-loader": "^3.2.0",
     "stats-webpack-plugin": "^0.2.1",
     "style-loader": "^0.12.4",
-    "webpack": "^1.13.0",
+    "webpack": "^2.2.0",
     "passport": "^0.3.2",
     "passport-github2": "^0.1.10",
     "react": "^0.14.3",
