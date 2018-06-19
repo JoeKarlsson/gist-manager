@@ -65,7 +65,7 @@
     "react-dom": "^0.14.3",
     "react-router": "^2.4.0",
     "util": "^0.10.3",
-    "snyk": "^1.61.2"
+    "snyk": "^1.83.0"
   },
   "devDependencies": {
     "chai": "^3.2.0",
