@@ -41,7 +41,7 @@
     "babel-preset-stage-0": "^6.3.13",
     "babel-cli": "^6.4.0",
     "body-parser": "^1.15.1",
-    "css-loader": "^0.19.0",
+    "css-loader": "^1.0.0",
     "express": "^4.13.3",
     "express-partials": "^0.3.0",
     "express-session": "^1.13.0",
