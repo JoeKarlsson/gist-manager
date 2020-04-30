@@ -23,7 +23,9 @@
     "start": "node server",
     "build": "rimraf dist && set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress --profile --colors",
     "postinstall": "rimraf dist && set NODE_ENV=production && webpack --config ./webpack.production.config.js --progress --profile --colors",
-    "eslint": "eslint ."
+    "eslint": "eslint .",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "dependencies": {
     "autoprefixer": "^6.0.3",
@@ -44,7 +46,7 @@
     "express-session": "^1.13.0",
     "extract-text-webpack-plugin": "^0.8.2",
     "html-webpack-plugin": "^1.6.1",
-    "jquery": "^3.0.0",
+    "jquery": "^3.5.0",
     "json-loader": "^0.5.3",
     "method-override": "^2.3.5",
     "node-sass": "^4.13.0",
@@ -61,7 +63,8 @@
     "stats-webpack-plugin": "^0.2.1",
     "style-loader": "^0.12.4",
     "util": "^0.10.3",
-    "webpack": "^1.13.0"
+    "webpack": "^1.13.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "chai": "^3.2.0",
@@ -77,5 +80,6 @@
     "sinon-chai": "^2.8.0",
     "webpack-dev-middleware": "^1.2.0",
     "webpack-hot-middleware": "^2.2.0"
-  }
+  },
+  "snyk": true
 }
