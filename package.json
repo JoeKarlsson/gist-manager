@@ -48,7 +48,7 @@
     "json-loader": "^0.5.3",
     "method-override": "^2.3.5",
     "node-sass": "^4.13.0",
-    "passport": "^0.3.2",
+    "passport": "^0.6.0",
     "passport-github2": "^0.1.10",
     "postcss-loader": "^0.6.0",
     "react": "^0.14.3",
